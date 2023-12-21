@@ -3,10 +3,10 @@ import pickle
 import numpy as np
 import pandas as pd
 
-popular_df = pd.read_pickle('C:\\Users\\Hp\\.vscode\\extensions\\book_recommender\\popular.pkl')
-pt = pd.read_pickle('C:\\Users\\Hp\\.vscode\\extensions\\book_recommender\\pt.pkl')
-books = pd.read_pickle('C:\\Users\\Hp\\.vscode\\extensions\\book_recommender\\books.pkl')
-similarity_scores = pd.read_pickle('C:\\Users\\Hp\\.vscode\\extensions\\book_recommender\\similarity_score.pkl')
+popular_df = pd.read_pickle('popular.pkl')
+pt = pd.read_pickle('pt.pkl')
+books = pd.read_pickle('books.pkl')
+similarity_scores = pd.read_pickle('similarity_score.pkl')
 
 
 app = Flask(__name__)
